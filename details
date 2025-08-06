@@ -1,0 +1,24 @@
+package JAVA5;
+
+import java.util.Scanner;
+public class JAVA5{
+	public static void main(String[]args) {
+		Scanner scan =new Scanner (System.in);
+		System.out.println("enter the name");
+		String a= scan.nextLine();
+		System.out.println("enter the age");
+		String b=scan.nextLine();
+		System.out.println("enter the email id");
+		String c=scan.nextLine();
+        System.out.println("enter the percentage");
+        String d=scan.nextLine();
+		System.out.println("your name : "+a);
+		System.out.println("your age :"+b);
+		System.out.println("your email id :" +c);
+		System.out.println("your percentage :" +d);
+		
+}
+
+
+
+}
