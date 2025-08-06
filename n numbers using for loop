@@ -1,0 +1,16 @@
+package JAVA5;
+
+import java.util.Scanner;
+public class JAVA5{
+	public static void main(String[]args) {
+		Scanner scan =new Scanner (System.in);
+		for(int i=0;i<=15;i++) {
+			System.out.println(i);
+		}
+		
+			
+}
+
+
+
+}
