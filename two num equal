@@ -1,0 +1,13 @@
+public class CheckEqual {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 20;
+
+        // Using == to check if both values are the same
+        if (a == b) {
+            System.out.println("true");
+        } else {
+            System.out.println("false");
+        }
+    }
+}
