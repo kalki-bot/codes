@@ -1,0 +1,48 @@
+package AGE;
+import java.util.Scanner;
+public class AGE1 {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int choice;
+			
+			do {
+				System.out.println(" MULTIPLY ");
+				System.out.println(" equal");
+				System.out.println( "Subtraction");
+				System.out.println(" Division");
+				System.out.println(" not equal");
+				System.out.println("out");
+				System.out.println("Enter  choice:");
+				
+				choice=sc.nextInt();
+				
+				if(choice == 5) {
+					System.out.println("out");
+					break;
+				}
+				
+				 System.out.println("Enter first value:");
+				 double sum = sc.nextDouble();
+				 System.out.println("Enter  second value:");
+				 double sum1 = sc.nextDouble();
+				 
+				 switch(choice) {
+				 case 1:
+					 System.out.println("Result:"+ (sum*sum1));
+					 break;
+				 case 2:
+					 System.out.println("Result:"+ (sum=sum1));
+					 break;
+				 case 3:
+					 System.out.println("Result:"+ (sum-sum1));
+					 break;
+				 default:
+					 System.out.println("wrong choice");
+						 } 
+				 }while(choice!=4);
+			
+			sc.close();
+							
+				
+	}
+}
