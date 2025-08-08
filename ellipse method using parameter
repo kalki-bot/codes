@@ -1,0 +1,17 @@
+package AGE;
+
+public class AGE1 {
+    static double area() {
+        int a = 5;
+        int b=6;
+        final double pi = 3.142;
+        
+        double result = pi * a * b;
+        return result;
+    }
+
+    public static void main(String[] args) {
+        double x = area();
+        System.out.println("Area is " + x);
+    }
+}
