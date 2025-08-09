@@ -1,0 +1,27 @@
+package AGE;
+import java.util.Scanner;
+ class AGE1{
+	 public static void main(String[]args) {
+	Scanner scan=new Scanner(System.in);
+	System.out.println("enter a:");
+ int a=scan.nextInt();
+ System.out.println("enter b:");
+ int b=scan.nextInt();
+ System.out.println("enter c:");
+ int c=scan.nextInt();
+
+ int d=a*b*c;
+ System.out.println("a*b*c="+d);
+ int e=a+b+c;
+ System.out.println( "a+b+c="+e);
+ int num=d/e;
+ System.out.println( "d/e="+num);
+
+
+ 
+ 
+ 
+ 
+ 
+	 }
+ }
