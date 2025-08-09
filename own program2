@@ -1,0 +1,22 @@
+package AGE;
+import java.util.Scanner;
+ class AGE1{
+	 public static void main(String[]args) {
+	Scanner scan=new Scanner(System.in);
+	 System.out.println("enter name:");
+ String name=scan.nextLine();
+ System.out.println(" name:"+name);
+ System.out.println("enter score:");
+double score=scan.nextDouble();
+ scan.nextLine();
+ System.out.println(" score:"+score/10);
+ System.out.println("enter department:");
+ String department=scan.nextLine();
+ System.out.println(" department:"+department);
+
+ 
+ 
+ 
+ 
+	 }
+ }
