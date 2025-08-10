@@ -1,0 +1,19 @@
+package AGE;
+import java.util.Scanner;
+ class AGE1{
+	 public static void main(String[]args) {
+		 Scanner scan=new Scanner (System.in);
+		 System.out.println("enter a"); 
+		 String a= scan.nextLine();
+		 System.out.println("enter b"); 
+		 String b= scan.nextLine();
+		 if(a.equals(b)) {
+			 System.out.println("ee sala cup namdhey");
+		 }
+			 else {
+				 System.out.println("cup illa"); 
+			 
+		 }
+	
+	 }
+ }
