@@ -1,0 +1,27 @@
+package AGE;
+import java.util.Scanner;
+
+class AGE1 {
+
+    int d = 90;
+    String a = "hello";
+    char c = 'a';
+    double d1 = 89.345d;
+    double d2=79.578d;
+
+    public static void area(AGE1 t) {
+    	Scanner scan=new Scanner(System.in);
+    	char c1=scan.next().charAt(0);
+    	if(c1==t.c) {
+    		System.out.println(t.c);	
+    	}
+    }
+    		public static void main(String[]args) {
+    		AGE1 s=new AGE1();
+    		int a=10;
+    		area(s);
+    	
+}
+	
+}
+        
