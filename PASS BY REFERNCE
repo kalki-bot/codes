@@ -1,0 +1,31 @@
+package AGE;
+import java.util.Scanner;
+
+class AGE1 {
+
+    int d = 90;
+    String a = "hello";
+    char c = 'a';
+    double d1 = 89.345d;
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter a character: ");
+        char c1 = scan.next().charAt(0);
+
+        if (c1 == 'a') {
+            System.out.println("a");
+        } else {
+            System.out.println("mismatch");
+        }
+
+        AGE1 s = new AGE1();
+        s.area();
+        scan.close();
+    }
+
+    public void area() {
+        int a = 10;
+        System.out.println("Area method 	 a = " + a);
+    }
+}
