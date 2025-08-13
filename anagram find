@@ -1,0 +1,22 @@
+package com.java;
+import java.util.Scanner;
+import java.util.Arrays;
+class sample{
+	public static boolean areAnagrams(String str1,String str2) {
+	char[]arr1=str1.toCharArray();
+	char[]arr2=str2.toCharArray();
+	Arrays.sort(arr1);
+	Arrays.sort(arr2);
+	return Arrays.equals(arr1, arr2);
+	}
+	public static void main(String[]args) {
+		Scanner scan =new Scanner(System.in);
+		System.out.println("enter your first string");
+		String strr=scan.nextLine();
+		System.out.println("enter your second string");
+		String strrr=scan.nextLine();
+		System.out.println(areAnagrams(strr,strrr));
+	}
+
+	}
+
