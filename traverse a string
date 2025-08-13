@@ -1,0 +1,15 @@
+package com.java;
+class sample{
+	public static void main(String[]args) {
+		String a="kalki";
+		for(int i=0;i<a.length();i++) {
+			char d=a.charAt(i);
+			System.out.println(d);
+		}
+	}
+			
+		
+	
+		
+	
+}
